@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEDGUIDE™</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <section>
+    <nav class="nav-bar">
+        <a href="index.html" class="button">Início</a>
+        <a href="perguntas.html" class="button">Dúvidas</a>
+        <a href="contato.html" class="button">Ajuda</a>
+    </nav>
+    <section class="access-section">
         <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Como Deseja Acessar?</h2>
-                    <div class="options-box">
-                        <div class="paciente">                            
-                            <a href="pacientelogin.html" class="button">Paciente</a>
-                            <p>Acesse seu histórico e agende consultas.</p>
-                        </div>
-                    <div class="medico">
-                            <a href="medicologin.html" class="button">Médico</a>
-                            <p>Acesse Prontuários e gerencie sua agenda.</p>
-                         </div>
-                    </div>
-                    </div>
-                </form>
+            <h1>Como deseja acessar?</h1>
+            <div class="options-box">
+                <div class="option paciente">
+                    <a href="pacientelogin.html" class="button">Paciente</a>
+                    <p>Acesse seu histórico e agende consultas.</p>
+                </div>
+                <div class="option medico">
+                    <a href="medicologin.html" class="button">Médico</a>
+                    <p>Acesse prontuários e gerencie sua agenda.</p>
+                </div>
             </div>
         </div>
     </section>

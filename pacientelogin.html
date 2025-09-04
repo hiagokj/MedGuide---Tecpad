@@ -1,38 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEDGUIDE™</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
 </head>
 <body>
-    <section>                   
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Login</h2>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
-                        <label for="">Email/CPF</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Senha</label>
-                    </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox">Lembrar de Mim  <a href="#">Esqueceu a senha?</a></label>
-                      
-                    </div>
-                    <button>Log in</button>
-                    <div class="register">
-                        <p>Não tem uma conta? <a href="#">Registre-se</a></p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <nav class="nav-bar">
+        <a href="index.html" class="button">Início</a>
+        <a href="perguntas.html" class="button">Dúvidas</a>
+        <a href="contato.html" class="button">Ajuda</a>
+    </nav>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <form action="" method="post">
+          <h1>Login Paciente</h1>
+
+          <div class="inputbox">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">Email ou CPF</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="lock-closed-outline" aria-hidden="true"></ion-icon>
+            <input type="password" id="senha" name="senha" placeholder=" " required>
+            <label for="senha">Senha</label>
+          </div>
+
+          <div class="forget">
+            <label for="lembrar">
+              <input type="checkbox" id="lembrar" name="lembrar">
+              Lembrar de mim
+            </label>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+
+          <button type="submit">Entrar</button>
+
+          <div class="register">
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
