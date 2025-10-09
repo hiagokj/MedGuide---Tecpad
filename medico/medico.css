@@ -34,7 +34,7 @@ section {
   justify-content: center;
   align-items:center;
   min-height: calc(100vh - 60px);
-  background: url(imgs/medico-paciente.png)no-repeat;
+  background: url(/imgs/medico.png)no-repeat;
   background-position:50%;
   background-size: 100%;
   background-color: rgb(235, 235, 235);
@@ -87,6 +87,7 @@ h1, h2 {
   transform: translateY(-50%);
   color: #555;
   font-size: 20px;
+  font-weight: bold;
   pointer-events: none;
   transition: 0.4s ease;
 }
@@ -131,7 +132,7 @@ h1, h2 {
 }
 
 .forget a:hover {
-  color: rgb(182, 2, 2);
+  color: rgb(255, 238, 0);
 }
 
 .button, button {

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Médico - MEDGUIDE™</title>
+  <link rel="stylesheet" href="medicoregistro.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+</head>
+<body>
+  
+  <nav class="nav-bar">
+    <a href="../index.html" class="button">Início</a>
+    <a href="perdeuasenha-contato-perguntas/perguntas.html" class="button">Dúvidas</a>
+    <a href="perdeuasenha-contato-perguntas/contato.html" class="button">Ajuda</a>
+  </nav>
+  
+  <section>
+    <div class="form-box">
+      <form action="" method="post">
+        <h1>Cadastro de Médico</h1>
+
+        <div class="form-grid">
+          <div class="inputbox">
+            <ion-icon name="person-outline"></ion-icon>
+            <input type="text" required placeholder=" ">
+            <label>Nome Completo</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" required placeholder=" ">
+            <label>Email Pessoal</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" required placeholder=" ">
+            <label>Senha</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="document-text-outline"></ion-icon>
+            <input type="text" required placeholder=" ">
+            <label>CRM</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="medkit-outline"></ion-icon>
+            <input type="text" required placeholder=" ">
+            <label>Especialidade</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="school-outline"></ion-icon>
+            <input type="text" required placeholder=" ">
+            <label>Faculdade</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="calendar-outline"></ion-icon>
+            <input type="number" required placeholder=" ">
+            <label>Ano de Formação</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="calendar-outline"></ion-icon>
+            <input type="date" required placeholder=" ">
+            <label>Data de Nascimento</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="call-outline"></ion-icon>
+            <input type="tel" required placeholder=" ">
+            <label>Telefone 1</label>
+          </div>
+
+          <div class="inputbox">
+            <ion-icon name="call-outline"></ion-icon>
+            <input type="tel" required placeholder=" ">
+            <label>Telefone 2</label>
+          </div>
+
+          <div class="inputbox" style="grid-column: span 2;">
+            <ion-icon name="home-outline"></ion-icon>
+            <textarea required placeholder=" "></textarea>
+            <label>Endereço</label>
+          </div>
+
+          <button type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
