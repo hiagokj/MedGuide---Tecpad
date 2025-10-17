@@ -34,7 +34,7 @@ section {
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 60px);
-  background: url(imgs/medico.png) no-repeat center center;
+  background: url(/imgs/medico.png) no-repeat center center;
   background-size: cover;
   background-color: rgb(235, 235, 235);
   padding: 20px;

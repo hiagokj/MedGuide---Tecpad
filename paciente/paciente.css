@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 .nav-bar {
@@ -12,8 +13,9 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background-color: #888282;
-  padding: 1px 0;
+  background-color: #616161;
+  padding: 5px 0;
+  border-bottom: 3px #222 solid;
 }
 
 .nav-bar a {
@@ -36,7 +38,7 @@ section {
   background: url(/imgs/paciente.png)no-repeat;
   background-position:50%;
   background-size: 100%;
-  background-color: rgb(235, 235, 235);
+  background-color: #b9b7b7;
   padding: 20px;
 }
 
@@ -137,7 +139,7 @@ h1, h2 {
 .button, button {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #888282;
+  background-color: #616161;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -148,7 +150,7 @@ h1, h2 {
 }
 
 .button:hover, button:hover {
-  background-color: #666;
+  background-color: #8d8c8c;
 }
 
 .button:active, button:active {
